@@ -14,7 +14,7 @@ We underline that the method extends easily to other free-discontinuity function
 In particular, the files `main.jl` provides the definition of `\psi` and `\rho` for the Thermal Insulation Functional.
 
 It is not clear which method produces the best result in the least time.
-The `lagrange` method has fastest iteratations but requires more iterations to produce a relevant output.
+The `lagrange` method has fastest iterations but requires more iterations to produce a relevant output.
 In 2D, the computations are very demanding so it is is better to use an HPC computation system. There are also better alternative to Julia.
 
 ## How to run the program
