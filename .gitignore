@@ -9,3 +9,5 @@
 *.snm
 *.vrb
 *.synctex.gz
+.ipynb_checkpoints/
+brouillon/

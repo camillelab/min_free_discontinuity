@@ -68,7 +68,7 @@ for i = 1:N
     for j = 1:N
         for k = 1:M
             # Mumford-Shah functional
-            rho[i,k] = gamma * (k/M - f(i/N))^2 
+            rho[i,j,k] = gamma * (k/M - f(i/N))^2 
             # Thermal Insulation functional
             #if k == 1
             #    rho[i,k] = 0
