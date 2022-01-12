@@ -8,9 +8,9 @@ We minimize
 where `u:[0,1]^d \to [0,1]` is a piecewise smooth function whose jump set is `J_u` and `d = 1, 2`.
 
 The folders `dykstra_*/` contain an implementation of the primal-dual algorithm designed by Bischof, Chambolle, Cremers and Pock in [_An Algorithm for Minimizing the Mumford-Shah Functional_](https://doi.org/10.1109/iccv.2009.5459348).
-The folders `lagrange_*/` contain an alternative variant presented by Chambolle, Cremers and Strekalovskiy in [_A Convex Representation for the Vectorial Mumford-Shah Functional_](https://doi.org/10.1109/cvpr.2012.6247866).
+The folders `lagrange_*/` contain an alternative method presented by Chambolle, Cremers and Strekalovskiy in [_A Convex Representation for the Vectorial Mumford-Shah Functional_](https://doi.org/10.1109/cvpr.2012.6247866).
 
-We underline that the method extends easily to other free-discontinuity functionals than Mumford-Shah by adapting the definition of `\alpha`, `\psi` and `\rho`.
+We underline that the algorithm extends easily to other free-discontinuity functionals than Mumford-Shah by adapting the definition of `\alpha`, `\psi` and `\rho`.
 In particular, the files `main.jl` provides the definition of `\psi` and `\rho` for the Thermal Insulation Functional.
 
 It is not clear which method produces the best result in the least time.
