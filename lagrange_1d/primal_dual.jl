@@ -74,6 +74,5 @@ function primal_dual()
         eta = copy(eta_next)
         mu = copy(mu_next)
     end 
-    println(error)
     return v, sigma
 end
